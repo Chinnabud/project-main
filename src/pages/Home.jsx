@@ -36,7 +36,7 @@ const Home = () => {
     },
     {
       img: "lamborghini.jpg",
-      name: "lamborghini Aventador",
+      name: "Lamborghini Aventador",
       country: "Italy",
       price: "฿30,010,000"
     },
@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <body className="bg-slate-50">
+      
 
 
         <img
@@ -106,7 +106,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </body>
+      
     </Layout>
   );
 };

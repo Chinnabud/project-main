@@ -27,7 +27,7 @@ const Card = ({ name, country, price, img }) => {
           </p>
           <button
             onClick={handleSelectCar}
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+            className="mt-4 px-4 py-2 bg-black text-white rounded-md hover:bg-yellow-500"
           >
             เลือกรถ
           </button>
@@ -51,14 +51,14 @@ const Card = ({ name, country, price, img }) => {
               </p>
               <button
                 onClick={handleCloseModal}
-                className="mt-4 px-4 me-3 py-2 bg-lime-500 text-white rounded-md hover:bg-red-600"
+                className="mt-4 px-4 me-3 py-2 bg-lime-600 text-white rounded-md hover:bg-lime-500"
               >
                 จองรถ
               </button>
 
               <button
                 onClick={handleCloseModal}
-                className="mt-4 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
+                className="mt-4 px-4 py-2 bg-white text-gray-400 rounded-md border-solid border-2 border-gray-400 "
               >
                 ปิด
               </button>
