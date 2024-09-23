@@ -68,7 +68,7 @@ const Home = () => {
 
         <img
           className="object-cover w-auto h-auto"
-          src="../public/Image/Rod_D.png"
+          src="./Image/Rod_D.png"
           alt="รูป"
         />
         <section className="text-center sm:text-left mt-20 container mx-auto max-w-screen-xl ">

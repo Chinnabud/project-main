@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-black p-3 flex  items-center">
       <div className="flex mr-6 items-center ">
         {/* Logo */}
-        <img src="../public/image/Rod_Dlogo.jpg" alt="Logo" className="h-16 w-16 mr-3" />
+        <img src="./Image/Rod_Dlogo.jpg" alt="Logo" className="h-16 w-16 mr-3" />
 
         {/* Brand Text */}
         <span className="text-white font-semibold text-lg"> <NavLink to="/" className="text-white hover:text-amber-400">RodD</NavLink></span>
